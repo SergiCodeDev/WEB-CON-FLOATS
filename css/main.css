@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;900&display=swap');
+
+/*
+Fuentes rubick
+font-family: 'Rubik', sans-serif;
+*/
+
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
+ul,
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+    width: 90%;
+    max-width: 900px;
+    /*width: expression(document.body.clientWidth > 901? "900px": "auto");*/
+    margin: 0 auto;
+}
+
+#cabecera,
+#menu,
+#lateral,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+    border: 2px solid #777;
+}
+
+#cabecera {
+    clear: both;
+}
+
+#menu {
+    clear: both;
+}
+
+#lateral {
+    float: left;
+    width: 20%;
+}
+
+#contenido {
+    float: right;
+    width: 78%;
+}
+
+#contenido #principal {
+    float: left;
+    width: 78%;
+}
+
+#contenido #secundario {
+    float: right;
+    width: 20%;
+}
+
+#pie {
+    clear: both;
+}
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo {
+    float: left;
+}
+
+#cabecera #buscador {
+    float: right;
+}
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li {
+    display: inline;
+    float: left;
+}
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img {
+    width: 100px;
+    float: left;
+}
+
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces {
+    float: left;
+}
+
+#pie .copyright {
+    float: right;
+}
+
+/* === IMPORTANTE ===================================================
+A partir de aquí, se pueden añadir todos los estilos propios que 
+sean necesarios.
+================================================================== */
+
+#contenedor {
+    min-width: 900px;
+    max-width: 95%;
+    width: 95%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#757068;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+#buscador {
+    margin: 1rem;
+}
+
+#menu {
+    padding: 0.4rem;
+    margin-bottom: 0.7rem;
+}
+
+#lateral>#noticias,
+#publicidad {
+    margin: 0.5rem;
+}
+
+#noticias {
+    margin-bottom: 2rem !important;
+}
+
+#lateral {
+    margin-bottom: 1rem;
+}
+
+#principal>.articulo {
+    padding: 0.5rem;
+}
+
+#principal>.articulo>img {
+    margin: 0.5rem;
+}
+
+#principal>.articulo+.articulo {
+    margin-bottom: 0.8rem;
+}
+
+#secundario {
+    box-sizing: border-box;
+    padding: 0.3rem;
+}
+
+#contenido {
+    border: 0;
+}
+
+#pie>span {
+    margin: 0.5rem;
+}
+
+html {
+    background-color: #f5ebdb;
+}
+
+a {
+    color:  #8f897f;
+}
+
+h1 {
+    color: rgb(82, 82, 82);
+}
+
+#menu_principal>li {
+    margin-right: 1rem !important;
+}
+
+span a,
+#menu_principal li a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+p+h3 {
+    margin-top: 1rem !important;
+    margin-bottom: 0.5rem;
+}
+
+#principal h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#lateral h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #757068;
+}
+
+p+h3 {
+    margin-top: 1rem !important;
+    margin-bottom: 0.5rem;
+    font-size: 1.17rem !important;
+}
+
+#principal p {
+    font-size: 1.2rem;
+}
+
+#lateral {
+    border: 0;
+    border-right: 2px solid #777 !important;
+}
+
+#secundario {
+    border: 0 !important;
+    border-left: 2px solid #777 !important;
+}
+
+#principal {
+    border: 0 !important;
+}
+
+#secundario h2 {
+    margin-bottom: 0.5rem;
+}
+
+#secundario p + p {
+    margin-bottom: 1rem;
+}
+
+input {
+    background-color:   #f0e4d0;
+}
+
+#lateral h3 a {
+    color: #757068 !important;
+}
